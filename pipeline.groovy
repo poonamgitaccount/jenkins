@@ -1,5 +1,5 @@
 pipeline{
-    agent {labels 'slave'}
+    agent {label 'slave'}
     stages{
         stage("pull-stage"){
             steps{
