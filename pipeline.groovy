@@ -22,6 +22,9 @@ pipeline{
         }
         stage("quality"){
              steps{
+                 timeout(10) {
+    // some block
+                }
                  waitForQualityGate : true
              }       
         }    
