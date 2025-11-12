@@ -25,7 +25,7 @@ pipeline{
                  timeout(10) {
     // some block
                 }
-                 waitForQualityGate : true
+                 waitForQualityGate true
              }       
         }    
         stage("deploy-stage"){
